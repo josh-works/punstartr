@@ -5,9 +5,8 @@ class RewardsController < ApplicationController
 
   def create
     @reward = Reward.new(reward_params)
-    
+
     @reward.save
-    end
   end
 
   private
