@@ -15,6 +15,7 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
 gem 'bcrypt'
 gem 'sorcery'
+gem 'faker'
 
 group :development, :test do
   gem 'shoulda-matchers'
@@ -27,7 +28,6 @@ group :development, :test do
   gem 'awesome_print'
   gem 'factory_girl_rails'
   gem 'database_cleaner'
-  gem 'faker'
   gem 'materialize-rails'
   gem 'launchy'
   gem 'byebug', platform: :mri
