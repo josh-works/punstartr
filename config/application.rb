@@ -15,6 +15,7 @@ require "action_cable/engine"
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
+config.serve_static_assets = true
 # config.assets.enabled = false
 module Puntstartr
   class Application < Rails::Application
