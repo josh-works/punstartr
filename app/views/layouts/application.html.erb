@@ -11,6 +11,10 @@
 
   <body class='<%= controller.controller_name %>'>
    <%= render "layouts/navbar" %>
+   <% flash.each do |flash, message| %>
+    <%= content_tag :div, message, class: "alert-#{flash}" %>
+   <% end %>
+   
     <%= yield %>
   </body>
 </html>

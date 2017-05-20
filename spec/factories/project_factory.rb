@@ -5,17 +5,11 @@ FactoryGirl.define do
       "#{x} project"
     end
     sequence :target_amount do |x|
-      x * 1000
+     (x * 100)
     end
     description  Faker::Lorem.paragraph
-    image_url    Faker::Avatar.image
+    image_url Faker::Avatar.image
+    completion_date Faker::Time.forward(30)
+    category
   end
-
-  # factory :user do
-  #   sequence :name do |x|
-  #     "#{x} name"
-  #   end
-  #   email Faker::Internet.email
-  #   phone Faker::PhoneNumber
-  # end
 end
