@@ -15,7 +15,6 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
 gem 'bcrypt'
 gem 'sorcery'
-gem 'faker'
 gem 'redis', '~> 3.0'
 gem 'rails-erd'
 gem 'twilio-ruby'
@@ -23,6 +22,7 @@ gem 'figaro'
 gem 'chartkick'
 gem 'hightop'
 gem 'groupdate'
+gem 'materialize-rails'
 
 
 group :development, :test do
@@ -35,6 +35,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'materialize-rails'
+  gem 'faker'
   gem 'launchy'
   gem 'byebug', platform: :mri
 end
