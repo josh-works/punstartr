@@ -16,6 +16,14 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt'
 gem 'sorcery'
 gem 'faker'
+gem 'redis', '~> 3.0'
+gem 'rails-erd'
+gem 'twilio-ruby'
+gem 'figaro'
+gem 'chartkick'
+gem 'hightop'
+gem 'groupdate'
+
 
 group :development, :test do
   gem 'shoulda-matchers'

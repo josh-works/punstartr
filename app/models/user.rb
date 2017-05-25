@@ -9,4 +9,9 @@ class User < ApplicationRecord
   validates :name, presence: true
   has_many :project_owners
   has_many :projects, through: :project_owners
+  has_many :project_backers
+  has_many :backed_projects, through: :project_backers, source: :project
+  has_many :rewards, through: :project_backers
+  has_many :messages
+  has_many :chatrooms, through: :messages
 end
