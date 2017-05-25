@@ -22,6 +22,7 @@ gem 'figaro'
 gem 'chartkick'
 gem 'hightop'
 gem 'groupdate'
+gem 'materialize-rails'
 
 group :development, :test do
   gem 'shoulda-matchers'
@@ -33,7 +34,6 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'faker'
-  gem 'materialize-rails'
   gem 'launchy'
   gem 'byebug', platform: :mri
 end
